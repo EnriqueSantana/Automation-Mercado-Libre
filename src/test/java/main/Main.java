@@ -15,7 +15,7 @@ public class Main {
         myMethods.click(Locators.selectItem);
         myMethods.clickbyId(Locators.acceptCockiesButton);
         myMethods.click(Locators.buyOption);
-        Thread.sleep(5000);
+        Thread.sleep(4000);
         myMethods.closeBrowser();
     }
 }
