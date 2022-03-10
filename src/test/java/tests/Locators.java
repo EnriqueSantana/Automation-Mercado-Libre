@@ -7,7 +7,7 @@ public class Locators {
     public static String offerTap= "//a[contains(text(),'Ofertas')]";
     public static String noInterestMonthlyOption = "//aside[@class='filters_desktop filters_section']//ol[1]//li[1]//a[1]";
     public static String selectItem = "//img[@alt='Colchón América Matrimonial Prestige Antibacteria Ortopédico']";
-    public static String buyOption = "//span[normalize-space()='Comprar ahora']";
+    public static String buyButton = "//span[normalize-space()='Comprar ahora']";
     public static String acceptCockiesButton = "newCookieDisclaimerButton";
 
 }

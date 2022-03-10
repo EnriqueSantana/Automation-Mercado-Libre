@@ -14,7 +14,7 @@ public class Main {
         myMethods.click(Locators.noInterestMonthlyOption);
         myMethods.click(Locators.selectItem);
         myMethods.clickbyId(Locators.acceptCockiesButton);
-        myMethods.click(Locators.buyOption);
+        myMethods.click(Locators.buyButton);
         Thread.sleep(4000);
         myMethods.closeBrowser();
     }
